@@ -1,0 +1,58 @@
+body {
+  background-color: pink;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.birthday-container {
+  margin-top: 50px;
+}
+
+.heart-image {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+input, button {
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.yes-btn {
+  background-color: lightgreen;
+}
+
+.no-btn {
+  background-color: lightcoral;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reasons-container {
+  padding: 20px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.reason {
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.reason.revealed {
+  background: yellow;
+}
+
+.final-container {
+  margin-top: 50px;
+}
+
+.pandas-image {
+  width: 300px;
+}
