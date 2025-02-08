@@ -13,7 +13,7 @@ const App = () => {
       setShowButtons(true);
       setHint("");
     } else {
-      setHint("Hmm, maybe try a date in August? 🧐");
+      setHint("Hint: August 7 is special! 🧐");
     }
   };
 
